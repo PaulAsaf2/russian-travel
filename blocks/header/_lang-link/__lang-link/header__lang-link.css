@@ -1,0 +1,10 @@
+.header__lang-link {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.header__lang-link:first-child {
+    border-bottom: thin solid white;
+}
