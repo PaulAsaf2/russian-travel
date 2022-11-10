@@ -5,4 +5,5 @@
     max-width: 640px;
     padding: 32px 0 44px 0;
     outline: medium solid rgb(238, 255, 0);
+    font-weight: 100;
 }
