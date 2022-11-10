@@ -1,0 +1,6 @@
+.place_container_row_second {
+    outline: medium solid lightblue;
+    display: flex;
+    padding-top: 48px;
+    gap: 40px;
+}

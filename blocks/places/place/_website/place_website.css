@@ -1,3 +1,7 @@
 .place_website {
-    outline: medium thin khaki;
+    outline: medium solid khaki;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: 12px;
 }
