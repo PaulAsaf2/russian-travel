@@ -1,8 +1,8 @@
 .header {
-    max-width: 1184px;
+    /* max-width: 1184px;
     min-height: 52px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
     outline: thin solid red;
 }

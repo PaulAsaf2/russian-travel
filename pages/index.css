@@ -39,3 +39,6 @@
         @import url(../blocks/places/place/_website/place_website.css);
             @import url(../blocks/places/place/_website/__link/place_website__link.css);
             @import url(../blocks/places/place/_website/__url-heading/place_website__url-heading.css);
+
+/* container_grid---container_grid---container_grid---container_grid---container_grid */
+@import url(../blocks/container/_grid/container_grid.css);
