@@ -1,8 +1,8 @@
 .lead {
     outline: medium solid rgb(40, 250, 21);
     grid-row: 2;
-    /* min-height: 1005px;
-    margin: 0 auto;
+    grid-column: 2 / 12;
     padding-top: 56px;
-    box-sizing: border-box; */
+    min-height: 1005px;
+    box-sizing: border-box;
 }

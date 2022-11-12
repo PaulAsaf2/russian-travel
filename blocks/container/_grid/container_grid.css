@@ -1,6 +1,9 @@
 .container_grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    outline: medium solid yellow;
+    grid-template-rows: repeat(4, auto-fill);
+    grid-auto-rows: auto;
+    column-gap: 18px;
+    margin: auto;
+    max-width: 1184px;
 }

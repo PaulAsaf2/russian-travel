@@ -8,4 +8,6 @@
     outline: medium solid coral;
     box-sizing: border-box;
     padding-top: 92px;
+    grid-row: 4;
+    grid-column: 1 / 13;
 }
