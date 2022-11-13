@@ -1,3 +1,10 @@
 .place {
     outline: medium solid blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, auto-fill);
+    grid-auto-rows: auto;
+    column-gap: 18px;
+    margin: auto;
+    max-width: 984px;
 }

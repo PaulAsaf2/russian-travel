@@ -1,7 +1,7 @@
 .place_website__link {
-    outline: thin solid red;
+    outline: thin solid hotpink;
     margin: 0;
     font-size: 18px;
     font-weight: 100;
-    color: white;
+    color: white;   
 }
