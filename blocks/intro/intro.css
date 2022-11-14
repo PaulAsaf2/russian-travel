@@ -1,6 +1,6 @@
 .intro {
-    /* max-width: 690px; */
-    /* min-height: 429px; */
+    width: 690px;
+    min-height: 429px;
     outline: medium solid greenyellow;
     padding-top: 92px;
     box-sizing: border-box;

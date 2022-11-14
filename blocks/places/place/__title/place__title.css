@@ -2,6 +2,7 @@
     outline: medium solid hotpink;
     font-size: 72px;
     line-height: 76px;
+    font-weight: 900;
     margin: 0;
     grid-area: title;
 }

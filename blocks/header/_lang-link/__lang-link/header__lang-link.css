@@ -2,10 +2,15 @@
     text-decoration: none;
     color: white;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 400;
     align-self: flex-end;
+    transition: 0.4s ease;
     }
 
 .header__lang-link:first-child {
     border-bottom: thin solid white;
+}
+
+.header__lang-link:hover {
+    opacity: 80%
 }

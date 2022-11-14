@@ -1,8 +1,8 @@
 .place__paragraph {
     outline: medium solid magenta;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
     margin: 0;
 }
 
