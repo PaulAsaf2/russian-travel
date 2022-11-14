@@ -1,11 +1,19 @@
 .container_grid {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, auto-fill);
-    grid-auto-rows: auto;
+    grid-template-columns: 30px repeat(12, 1fr) 30px;
+    /* grid-template-rows: repeat(4, auto-fill); */
+    /* grid-auto-rows: auto; */
     column-gap: 18px;
     row-gap: 92px;
-    margin: auto;
-    max-width: 1184px;
+    /* margin: 0 48px; */
+    /* max-width: 1184px; */
     outline: medium solid salmon;
 }
+
+/* @media screen and (max-width: 1024px) {
+    .container_grid {
+        margin: auto;
+        column-gap: 16px;
+        max-width: 928px;
+    }
+} */

@@ -1,6 +1,6 @@
 .cover {
+    grid-column: 2 / 14;
     grid-row: 6;
-    grid-column: 1 / 13;
     min-height: 740px;
     outline: medium solid orange;
     background-image: url("../../images/cover-trains.jpg");
@@ -28,4 +28,11 @@
 
 .cover:hover::before {
     opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        /* margin: 0 -48px 0 -48px; */
+        min-height: 640px;
+    }
 }

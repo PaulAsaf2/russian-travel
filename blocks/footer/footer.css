@@ -1,6 +1,6 @@
 .footer {
+    grid-column: 2 / 14;
     grid-row: 7;
-    grid-column: 1 / 13;
     display: flex;
     justify-content: space-between;
     padding-bottom: 24px;
