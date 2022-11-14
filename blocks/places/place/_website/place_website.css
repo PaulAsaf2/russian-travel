@@ -1,5 +1,5 @@
 .place_website {
     outline: medium thin khaki;
-    grid-column: 6 / 11;
-    grid-row: 1 / 2;
+    grid-area: link;
+    align-self: end;
 }

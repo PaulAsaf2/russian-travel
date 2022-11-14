@@ -1,0 +1,7 @@
+.footer {
+    grid-row: 7;
+    grid-column: 1 / 13;
+    display: flex;
+    justify-content: space-between;
+    padding: 92px 0 24px 0;
+}
