@@ -3,5 +3,5 @@
     grid-column: 1 / 13;
     display: flex;
     justify-content: space-between;
-    padding: 92px 0 24px 0;
+    padding-bottom: 24px;
 }
