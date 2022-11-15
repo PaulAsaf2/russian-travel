@@ -16,3 +16,9 @@
         grid-column: 1 / 4;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .lead {
+        grid-column: 1 / 4;
+    }
+}

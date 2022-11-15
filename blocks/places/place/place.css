@@ -50,6 +50,21 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: 16px 1fr 16px;
+        grid-template-rows: repeat(3, auto-fill);
+        grid-template-areas: 
+        ". title ."
+        ". link ."
+        "image image image"
+        ". paragraph .";
+        column-gap: 0;
+        row-gap: 32px;
+    }
+}
+
+
 /* @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 16px 1fr 16px;

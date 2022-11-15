@@ -4,3 +4,10 @@
     max-height: 615px;
     outline: medium solid rgb(238, 255, 0);
 }
+
+/* @media screen and (max-width: 320px) {
+    .lead__image {
+        width: 320px;
+        height: 200px;
+    }
+} */
