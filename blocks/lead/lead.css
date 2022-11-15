@@ -17,8 +17,21 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 580px) {
     .lead {
-        grid-column: 1 / 4;
+        grid-column: 2 / 3;
+    }
+} */
+
+@media screen and (max-width: 580px) {
+    .lead {
+        grid-column: 2 / 3;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .lead {
+        width: 320px;
     }
 }

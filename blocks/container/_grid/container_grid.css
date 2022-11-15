@@ -23,9 +23,20 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
     .container_grid {
-        grid-template-columns: 1rem 288px 1rem;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
         row-gap: 64px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .container_grid {
+        /* grid-template-columns: 1fr 288px 1fr; */
+        /* row-gap: 64px; */
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+}
+

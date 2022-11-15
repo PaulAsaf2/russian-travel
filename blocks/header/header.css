@@ -19,10 +19,18 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
     .header {
         grid-column: 2 / 3;
-        margin: 16px 0 -16px;
+        margin-top: 16px;
         min-height: 42px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header {
+        min-height: 42px;
+        width: 288px;
+        margin: 16px auto -16px auto;
     }
 }

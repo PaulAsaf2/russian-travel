@@ -3,3 +3,10 @@
     grid-area: link;
     align-self: end;
 }
+
+@media screen and (max-width: 360px) {
+    .place_website {
+        align-self: flex-start;
+        padding-left: 16px;
+    }
+}

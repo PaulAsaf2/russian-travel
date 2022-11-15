@@ -16,8 +16,17 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
     .places {
-        grid-column: 1 / 4;
+        grid-column: 2 / 3;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .places {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
 }

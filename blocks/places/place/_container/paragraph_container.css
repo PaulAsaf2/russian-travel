@@ -1,6 +1,0 @@
-.paragraph_container {
-    outline: medium solid darkgreen;
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
-}

@@ -27,9 +27,18 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
     .photo-grid {
         grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .photo-grid {
+        grid-template-columns: 288px;
+        margin: auto;
         column-gap: 0;
         row-gap: 12px;
     }
