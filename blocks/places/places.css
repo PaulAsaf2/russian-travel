@@ -1,4 +1,15 @@
 .places {
     outline: medium darkkhaki;
+<<<<<<< HEAD
     padding-top: 92px;
+=======
+    grid-row: 5;
+    grid-column: 3 / 13;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        grid-column: 1 / 13;
+    }
+>>>>>>> final_3
 }

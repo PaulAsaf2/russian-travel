@@ -1,4 +1,4 @@
 .header__logo {
-    margin: 0;
     outline: thin solid red;
+    grid-column: 1 / 2;
 }

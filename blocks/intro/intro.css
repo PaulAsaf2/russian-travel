@@ -1,7 +1,14 @@
 .intro {
-    max-width: 690px;
+    width: 690px;
     /* min-height: 429px; */
     outline: medium solid greenyellow;
-    padding-top: 92px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    grid-row: 3;
+    grid-column: 3 / 10;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        grid-column: 1 / 8;
+    }
 }
