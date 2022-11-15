@@ -1,4 +1,4 @@
-.container_grid {
+.container {
     display: grid;
     grid-template-columns: 3rem 6.25rem 1fr 6.25rem 3rem;
     row-gap: 92px;
@@ -6,27 +6,27 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container_grid {
+    .container {
         grid-template-columns: 3rem 1fr 3rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container_grid {
+    .container {
         grid-template-columns: 1.5rem 1fr 1.5rem;
         row-gap: 88px;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .container_grid {
+    .container {
         grid-template-columns: 0.1fr 1fr 0.1fr;
         row-gap: 64px;
     }
 }
 
 @media screen and (max-width: 360px) {
-    .container_grid {
+    .container {
         display: flex;
         flex-direction: column;
         gap: 64px;

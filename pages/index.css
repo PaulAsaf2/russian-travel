@@ -4,11 +4,14 @@
 /* root---root---root---root---root---root---root---root---root---root--- */
 @import url(../blocks/root/root.css);
 
+/* container_grid---container_grid---container_grid---container_grid---container_grid */
+@import url(../blocks/container/container.css);
+
 /* header---header---header---header---header---header---header---header */
 @import url(../blocks/header/header.css);
     @import url(../blocks/header/__logo/header__logo.css);
-    @import url(../blocks/header/_lang-link/header_lang-link.css);
-        @import url(../blocks/header/_lang-link/__lang-link/header__lang-link.css);
+    @import url(../blocks/header/_lang_link/header_lang_link.css);
+        @import url(../blocks/header/_lang_link/__lang_link/header__lang_link.css);
 
 /* lead---lead---lead---lead---lead---lead---lead---lead---lead---lead---lead */
 @import url(../blocks/lead/lead.css);
@@ -22,7 +25,7 @@
     @import url(../blocks/intro/__title/intro__title.css);
     @import url(../blocks/intro/__text/intro__text.css);
     @import url(../blocks/intro/__list/intro__list.css);
-        @import url(../blocks/intro/__list/_original/intro_list_style_original.css);
+        @import url(../blocks/intro/__list/__original/intro__list_style_original.css);
 
 /* photo-grid---photo-grid---photo-grid---photo-grid---photo-grid---photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -35,14 +38,11 @@
     @import url(../blocks/places/place/place.css);
         @import url(../blocks/places/place/__image/place__image.css);
         @import url(../blocks/places/place/__title/place__title.css);
-        @import url(../blocks/places/place/_website/place_website.css);
-            @import url(../blocks/places/place/_website/__link/place_website__link.css);
-            @import url(../blocks/places/place/_website/__url-heading/place_website__url-heading.css);
-        @import url(../blocks/places/place/__container_paragraph/place__container_paragraph.css);
-            @import url(../blocks/places/place/__container_paragraph/__paragraph/place__paragraph.css);
-
-/* container_grid---container_grid---container_grid---container_grid---container_grid */
-@import url(../blocks/container/_grid/container_grid.css);
+        @import url(../blocks/places/place/__website/place__website.css);
+        @import url(../blocks/places/place/__link/place__link.css);
+        @import url(../blocks/places/place/__url/place__url.css);
+        @import url(../blocks/places/place/__container/place__container.css);
+        @import url(../blocks/places/place/__paragraph/place__paragraph.css);
 
 /* cover---cover---cover---cover---cover---cover---cover---cover---cover---cover---cover */
 @import url(../blocks/cover/cover.css);

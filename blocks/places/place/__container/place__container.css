@@ -1,9 +1,9 @@
-.place__container_paragraph {
+.place__container {
     grid-area: paragraph;
 }
 
 @media screen and (max-width: 360px) {
-    .place__container_paragraph {
+    .place__container {
         display: flex;
         flex-direction: column;
         gap: 25px;
