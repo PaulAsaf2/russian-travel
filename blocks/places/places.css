@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-        grid-column: 2 / 14;
+        grid-column: 2 / 3;
     }
 }
 

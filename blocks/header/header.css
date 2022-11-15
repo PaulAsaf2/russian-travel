@@ -7,6 +7,12 @@
     outline: thin solid yellow;
 }
 
+@media screen and (max-width: 1024px) {
+    .header {
+        grid-column: 2 / 3;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .header {
         grid-column: 2 / 3;

@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1024px) {
     .container_grid {
-        grid-template-columns: 32px repeat(12, 1fr) 32px;
+        grid-template-columns: 3rem 1fr 3rem;
         /* column-gap: 16px; */
     }
 }

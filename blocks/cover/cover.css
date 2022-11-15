@@ -34,7 +34,7 @@
     .cover {
         /* margin: 0 -48px 0 -48px; */
         min-height: 640px;
-        grid-column: 1 / 15;
+        grid-column: 1 / 4;
     }
 }
 
