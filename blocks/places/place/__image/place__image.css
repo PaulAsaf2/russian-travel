@@ -1,7 +1,7 @@
 .place__image {
     outline: medium thin lawngreen;
     object-fit: cover;
-    width: 95.5%;
+    width: 100%;
     grid-area: image;
 }
 

@@ -3,14 +3,14 @@
     /* margin: auto; */
     /* max-width: 984px; */
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: 1fr 1.05fr;
     grid-template-rows: repeat(3, auto-fill);
     grid-template-areas: 
-    "title title title title title link link link link link"
-    "image image image image image paragraph paragraph paragraph paragraph paragraph"
-    "image image image image image paragraph paragraph paragraph paragraph paragraph";
+    "title link"
+    "image paragraph"
+    "image paragraph";
     grid-auto-rows: auto;
-    column-gap: 18px;
+    column-gap: 40px;
     row-gap: 48px;
     padding-top: 80px;
 }
