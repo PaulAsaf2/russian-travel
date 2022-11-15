@@ -12,3 +12,11 @@
         grid-column: 2 / 3;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .header {
+        grid-column: 2 / 3;
+        margin: 16px 0 -16px;
+        min-height: 42px;
+    }
+}

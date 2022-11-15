@@ -14,3 +14,10 @@
         max-width: 328px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        width: 100%;
+    }
+}

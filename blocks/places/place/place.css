@@ -41,5 +41,23 @@
         max-width: none;
         column-gap: 20px;
         row-gap: 48px;
+        padding-top: 73px;
+    }
+
+    .place:first-child {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 16px 1fr 16px;
+        row-gap: 32px;
+        padding-top: 50px;
+        column-gap: 0;
+    }
+
+    .place:first-child {
+        padding-top: 0;
     }
 }
