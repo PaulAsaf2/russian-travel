@@ -1,9 +1,9 @@
 .container_grid {
     display: grid;
-    grid-template-columns: 30px repeat(12, 1fr) 30px;
+    grid-template-columns: 3rem 6.25rem 1fr 6.25rem 3rem;
     /* grid-template-rows: repeat(4, auto-fill); */
     /* grid-auto-rows: auto; */
-    column-gap: 18px;
+    /* column-gap: 18px; */
     row-gap: 92px;
     /* margin: 0 48px; */
     /* max-width: 1184px; */
@@ -14,7 +14,7 @@
 @media screen and (max-width: 1024px) {
     .container_grid {
         grid-template-columns: 32px repeat(12, 1fr) 32px;
-        column-gap: 16px;
+        /* column-gap: 16px; */
     }
 }
 

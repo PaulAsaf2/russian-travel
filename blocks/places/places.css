@@ -1,7 +1,7 @@
 .places {
     outline: medium darkkhaki;
     grid-row: 5;
-    grid-column: 3 / 13;
+    grid-column: 3 / 4;
 }
 
 @media screen and (max-width: 1024px) {
