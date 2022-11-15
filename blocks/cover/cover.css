@@ -7,8 +7,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
     z-index: 0;
 }
@@ -34,5 +34,6 @@
     .cover {
         /* margin: 0 -48px 0 -48px; */
         min-height: 640px;
+        grid-column: 1 / 15;
     }
 }
