@@ -1,8 +1,5 @@
 .places {
     outline: medium darkkhaki;
-<<<<<<< HEAD
-    padding-top: 92px;
-=======
     grid-row: 5;
     grid-column: 3 / 13;
 }
@@ -11,5 +8,10 @@
     .places {
         grid-column: 2 / 14;
     }
->>>>>>> final_3
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        grid-column: 2 / 3;
+    }
 }

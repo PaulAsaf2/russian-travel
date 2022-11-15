@@ -10,3 +10,9 @@
         grid-column: 2 / 14;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead {
+        grid-column: 1 / 4;
+    }
+}

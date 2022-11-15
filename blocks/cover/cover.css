@@ -37,3 +37,11 @@
         grid-column: 1 / 15;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cover {
+        /* margin: 0 -48px 0 -48px; */
+        min-height: 480px;
+        grid-column: 1 / 4;
+    }
+}

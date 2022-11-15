@@ -12,3 +12,10 @@
         grid-column: 2 / 11;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .intro {
+        grid-column: 2 / 3;
+        width: 100%;
+    }
+}
