@@ -7,6 +7,7 @@
     row-gap: 92px;
     /* margin: 0 48px; */
     /* max-width: 1184px; */
+    box-sizing: border-box;
     outline: medium solid salmon;
 }
 
