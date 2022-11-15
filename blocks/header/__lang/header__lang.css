@@ -1,4 +1,4 @@
-.header__lang_link {
+.header__lang {
     text-decoration: none;
     color: white;
     font-size: 24px;
@@ -7,16 +7,16 @@
     transition: 0.4s ease;
     }
 
-.header__lang_link:first-child {
+.header__lang:first-child {
     border-bottom: thin solid white;
 }
 
-.header__lang_link:hover {
+.header__lang:hover {
     opacity: 80%;
 }
 
 @media screen and (max-width: 360px) {
-    .header__lang_link {
+    .header__lang {
         font-size: 18px;
     }
 }
