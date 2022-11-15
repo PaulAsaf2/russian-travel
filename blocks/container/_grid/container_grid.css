@@ -10,10 +10,11 @@
     outline: medium solid salmon;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .container_grid {
-        margin: auto;
+        /* grid-template-columns: 30px repeat(12, 1fr) 30px; */
+        /* margin: auto; */
         column-gap: 16px;
         max-width: 928px;
     }
-} */
+}
