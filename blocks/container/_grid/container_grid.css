@@ -1,11 +1,7 @@
 .container_grid {
     display: grid;
     grid-template-columns: 3rem 6.25rem 1fr 6.25rem 3rem;
-    /* grid-template-rows: repeat(4, auto-fill); */
-    /* grid-auto-rows: auto; */
     row-gap: 92px;
-    /* margin: 0 48px; */
-    /* max-width: 1184px; */
     box-sizing: border-box;
     outline: medium solid salmon;
 }
@@ -32,8 +28,6 @@
 
 @media screen and (max-width: 360px) {
     .container_grid {
-        /* grid-template-columns: 1fr 288px 1fr; */
-        /* row-gap: 64px; */
         display: flex;
         flex-direction: column;
         gap: 64px;

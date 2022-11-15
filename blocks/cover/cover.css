@@ -32,7 +32,6 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        /* margin: 0 -48px 0 -48px; */
         min-height: 640px;
         grid-column: 1 / 4;
     }
@@ -40,16 +39,12 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        /* margin: 0 -48px 0 -48px; */
         min-height: 480px;
-        grid-column: 1 / 4;
     }
 }
 
 @media screen and (max-width: 580px) {
     .cover {
-        /* margin: 0 -48px 0 -48px; */
         min-height: 200px;
-        grid-column: 1 / 4;
     }
 }

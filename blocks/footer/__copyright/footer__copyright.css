@@ -4,6 +4,12 @@
     font-weight: 100;
 }
 
+@media screen and (max-width: 740px) {
+    .footer__copyright {
+        padding-top: 30px;
+    }
+}
+
 @media screen and (max-width: 580px) {
     .footer__copyright {
         padding-top: 48px;

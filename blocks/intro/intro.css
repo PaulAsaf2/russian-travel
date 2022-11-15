@@ -1,8 +1,6 @@
 .intro {
     width: 690px;
-    /* min-height: 429px; */
     outline: medium solid greenyellow;
-    /* box-sizing: border-box; */
     grid-row: 3;
     grid-column: 3 / 4;
 }
@@ -15,7 +13,6 @@
 
 @media screen and (max-width: 768px) {
     .intro {
-        grid-column: 2 / 3;
         width: 100%;
     }
 }

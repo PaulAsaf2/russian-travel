@@ -1,7 +1,5 @@
 .place {
     outline: medium solid blanchedalmond;
-    /* margin: auto; */
-    /* max-width: 984px; */
     display: grid;
     grid-template-columns: 1fr 1.05fr;
     grid-template-rows: repeat(3, auto-fill);
@@ -22,26 +20,13 @@
 @media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: 1fr 1.04fr;
-        /* grid-template-areas: 
-        "title link"
-        "image paragraph"
-        "image paragraph"; */
-        /* grid-template-columns: repeat(12, 1fr); */
-        /* max-width: none; */
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        /* grid-template-areas: 
-        "title link"
-        "image paragraph"
-        "image paragraph"; */
-        /* grid-template-columns: repeat(2, 1fr); */
-        /* max-width: none; */
         column-gap: 28px;
-        row-gap: 48px;
         padding-top: 73px;
     }
 
@@ -68,21 +53,6 @@
     .place {
         display: flex;
         flex-direction: column;
-        
         padding: 0;
     }
 }
-
-
-/* @media screen and (max-width: 768px) {
-    .place {
-        grid-template-columns: 16px 1fr 16px;
-        row-gap: 32px;
-        padding-top: 50px;
-        column-gap: 0;
-    }
-
-    .place:first-child {
-        padding-top: 0;
-    }
-} */

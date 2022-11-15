@@ -10,18 +10,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .places {
-        grid-column: 2 / 3;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    .places {
-        grid-column: 2 / 3;
-    }
-}
-
 @media screen and (max-width: 360px) {
     .places {
         width: 320px;
