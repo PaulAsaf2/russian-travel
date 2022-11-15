@@ -1,6 +1,5 @@
 .intro {
     width: 690px;
-    outline: medium solid greenyellow;
     grid-row: 3;
     grid-column: 3 / 4;
 }

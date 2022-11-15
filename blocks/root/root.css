@@ -45,7 +45,6 @@
     min-width: 320px;
     max-width: 1280px;
     color: white;
-    outline: medium solid red;
 }
 
 @media screen and (max-width: 1024px) {

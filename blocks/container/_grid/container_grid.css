@@ -3,7 +3,6 @@
     grid-template-columns: 3rem 6.25rem 1fr 6.25rem 3rem;
     row-gap: 92px;
     box-sizing: border-box;
-    outline: medium solid salmon;
 }
 
 @media screen and (max-width: 1024px) {

@@ -2,7 +2,6 @@
     width: 100%;
     object-fit: cover;
     max-height: 615px;
-    outline: medium solid rgb(238, 255, 0);
 }
 
 @media screen and (max-width: 360px) {
