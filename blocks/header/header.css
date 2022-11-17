@@ -12,15 +12,8 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-        grid-column: 2 / 3;
-    }
-}
-
 @media screen and (max-width: 580px) {
     .header {
-        grid-column: 2 / 3;
         margin-top: 16px;
         min-height: 42px;
     }
@@ -28,7 +21,6 @@
 
 @media screen and (max-width: 360px) {
     .header {
-        min-height: 42px;
         width: 288px;
         margin: 16px auto -16px auto;
     }

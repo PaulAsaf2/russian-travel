@@ -1,6 +1,9 @@
 /* normalize---normalize---normalize---normalize---normalize---normalize */
 @import url(../vendor/normalize.css);
 
+/* fonts---fonts---fonts---fonts---fonts---fonts---fonts---fonts---fonts--- */
+@import url(../vendor/fonts.css);
+
 /* root---root---root---root---root---root---root---root---root---root--- */
 @import url(../blocks/root/root.css);
 
@@ -35,14 +38,14 @@
 @import url(../blocks/places/places.css);
 
 /* place---place---place---place---place---place---place---place---place---place */
-    @import url(../blocks/places/place/place.css);
-        @import url(../blocks/places/place/__image/place__image.css);
-        @import url(../blocks/places/place/__title/place__title.css);
-        @import url(../blocks/places/place/__website/place__website.css);
-        @import url(../blocks/places/place/__link/place__link.css);
-        @import url(../blocks/places/place/__url/place__url.css);
-        @import url(../blocks/places/place/__container/place__container.css);
-        @import url(../blocks/places/place/__paragraph/place__paragraph.css);
+    @import url(../blocks/place/place.css);
+        @import url(../blocks/place/__image/place__image.css);
+        @import url(../blocks/place/__title/place__title.css);
+        @import url(../blocks/place/__website/place__website.css);
+        @import url(../blocks/place/__link/place__link.css);
+        @import url(../blocks/place/__url/place__url.css);
+        @import url(../blocks/place/__container/place__container.css);
+        @import url(../blocks/bplace/__paragraph/place__paragraph.css);
 
 /* cover---cover---cover---cover---cover---cover---cover---cover---cover---cover---cover */
 @import url(../blocks/cover/cover.css);
