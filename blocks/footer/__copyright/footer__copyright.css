@@ -5,9 +5,10 @@
     font-weight: 100;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 714px) {
     .footer__copyright {
-        padding-top: 30px;
+        align-self: center;
+        padding-top: 40px;
     }
 }
 

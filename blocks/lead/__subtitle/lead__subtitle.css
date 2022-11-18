@@ -22,9 +22,3 @@
         padding: 16px 16px 40px 16px;
     }
 }
-
-@media screen and (max-width: 365px) {
-    .lead__subtitle {
-        /* max-width: 288px; */
-    }
-}

@@ -3,6 +3,12 @@
     gap: 18px;
 }
 
+@media screen and (max-width: 714px) {
+    .footer__navigation {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 590px) {
     .footer__navigation {
         flex-direction: column;
