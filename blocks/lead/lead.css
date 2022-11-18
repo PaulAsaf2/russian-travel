@@ -22,8 +22,13 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
     .lead {
-        width: 320px;
+        /* max-width: 320px; */
+        /* margin: auto; */
+        /* display: contents; */
+        /* display: flex;
+        flex-direction: column;
+        row-gap: 0; */
     }
 }

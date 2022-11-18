@@ -21,8 +21,9 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
     .lead__title {
-        max-width: 288px;
+        /* max-width: 288px; */
+        padding: 0 16px 0 16px;
     }
 }

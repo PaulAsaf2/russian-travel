@@ -2,7 +2,7 @@
     grid-area: paragraph;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
     .place__container {
         display: flex;
         flex-direction: column;

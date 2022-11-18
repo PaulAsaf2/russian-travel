@@ -32,6 +32,12 @@
   }
 }
 
+@media screen and (max-width: 365px) {
+  .root {
+    max-width: 365px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .root {
     max-width: 320px;

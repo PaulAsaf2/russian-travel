@@ -16,9 +16,9 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
     .intro {
-        width: 289px;
-        margin: auto;
+        padding: 0 16px 0 16px;
+        width: auto;
     }
 }
