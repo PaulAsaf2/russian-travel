@@ -50,19 +50,6 @@
     }
 }
 
-/* @media screen and (max-width: 590px) {
-    .place {
-        grid-template-columns: 16px 1fr 16px;
-        grid-template-areas: 
-        ". title ."
-        ". link ."
-        ". image ."
-        ". paragraph .";
-        column-gap: 0;
-        row-gap: 32px;
-    }
-} */
-
 @media screen and (max-width: 365px) {
     .place {
         display: flex;

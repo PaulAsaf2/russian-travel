@@ -5,25 +5,9 @@
     font-weight: 100;
 }
 
-@media screen and (max-width: 714px) {
-    .footer__copyright {
-        align-self: center;
-        padding-top: 40px;
-    }
-}
-
 @media screen and (max-width: 760px) {
     .footer__copyright {
         padding-top: 48px;
         line-height: 14px;
-        align-self: flex-start;
     }
 }
-
-/* @media screen and (max-width: 590px) {
-    .footer__copyright {
-        padding-top: 48px;
-        line-height: 14px;
-        align-self: flex-start;
-    }
-} */
