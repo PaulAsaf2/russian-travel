@@ -12,10 +12,18 @@
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 760px) {
     .footer__copyright {
         padding-top: 48px;
         line-height: 14px;
         align-self: flex-start;
     }
 }
+
+/* @media screen and (max-width: 590px) {
+    .footer__copyright {
+        padding-top: 48px;
+        line-height: 14px;
+        align-self: flex-start;
+    }
+} */

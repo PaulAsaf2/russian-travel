@@ -14,11 +14,17 @@
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 760px) {
     .lead__caption {
         padding-left: 0;
     }
 }
+
+/* @media screen and (max-width: 590px) {
+    .lead__caption {
+        padding-left: 0;
+    }
+} */
 
 @media screen and (max-width: 365px) {
     .lead__caption {
