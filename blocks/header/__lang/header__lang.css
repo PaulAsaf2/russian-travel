@@ -8,10 +8,6 @@
     transition: 0.4s ease;
     }
 
-.header__lang:first-child {
-    border-bottom: thin solid white;
-}
-
 .header__lang:hover {
     opacity: 80%;
 }
