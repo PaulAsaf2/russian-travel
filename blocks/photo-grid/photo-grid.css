@@ -6,22 +6,27 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
     .photo-grid {
-        grid-column: 2 / 3;
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        grid-column: 2 / 3;
+    }
+}
+
+@media screen and (max-width: 1023px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 760px) {
     .photo-grid {
         grid-template-columns: 1fr;
         column-gap: 0;

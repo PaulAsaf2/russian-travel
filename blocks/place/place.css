@@ -22,15 +22,22 @@
     }
 }
 
+@media screen and (max-width: 925px) {
+    .place {
+        grid-template-columns: 0.6fr 1fr;
+        column-gap: 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place {
         column-gap: 28px;
         padding-top: 73px;
-        grid-template-columns: 1fr 1.02fr;
+        grid-template-columns: 1fr 1.1fr;
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 760px) {
     .place {
         grid-template-columns: 16px 1fr 16px;
         grid-template-areas: 
