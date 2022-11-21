@@ -4,7 +4,7 @@
     font-weight: 400;
     letter-spacing: 1.5px;
     margin: 0;
-    padding-top: 8px;
+    padding-top: 4px;
     text-transform: uppercase;
 }
 
@@ -16,6 +16,13 @@
 
 @media screen and (max-width: 590px) {
     .lead__caption {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .lead__caption {
         padding-left: 16px;
     }
+
 }
