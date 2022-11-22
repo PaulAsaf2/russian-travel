@@ -33,7 +33,7 @@
     .place {
         column-gap: 28px;
         padding-top: 73px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.03fr;
     }
 }
 
